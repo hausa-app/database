@@ -1,0 +1,31 @@
+ # # # API Methoden
+
+	getDateOfLastUpdate() {
+		return lastUpdate
+	}
+
+	getEntriesNewerThan(Date clientD) {
+		Liste<DatabaseEntry> returnList = new List
+
+		for (DatabaseEntry serverEntry : TABLE) {
+			if (clientD < serverEntry.getTimeStamp()) {
+				returnList.add(serverEntry)
+			} else {
+				// Nichts
+			}
+		}
+		return returnList
+	}
+
+	pushUsage(List<DatebaseEntry>) {
+		// TODO
+
+	}
+
+# # # ServerSeitige Methoden
+
+new
+modify
+disable
+
+various statisitics methods

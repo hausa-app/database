@@ -1,0 +1,28 @@
+checkForUpdate() {
+	
+
+	Date lastServerUpdate = getDateOfLastUpdate()
+	if (lastClientUpdate <  lastServerUpdate) {
+		Liste<DatabaseEntry> needsToBeUpdated = getEntriesNewerThan(lastClientUpdate)
+		updateLocalDatabase(needsToBeUpdated)
+	} else {
+		// Nichts
+	}
+}
+
+updateLocalDatabase(Liste<DatabaseEntry> needsToBeUpdated) {
+	for (DatabaseEntry d : needsToBeUpdated) {
+		String newClientFilePath = getPicFileFromServer(d.getURLPath + suffix) // qualitätssuffix aus preferences 
+		d.setClientFilePath(newClientFilePath)
+		// TODO ersetze altes d in Datenbank mitn euem d 
+
+	}
+}
+
+String getPicFileFromServer(URL url) {
+	// Image image = http Anfrage + Download der Datei
+
+	return pathClient
+
+}
+

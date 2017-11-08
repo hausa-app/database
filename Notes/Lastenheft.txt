@@ -1,0 +1,19 @@
+Lastenheft
+
+App-Beschreibung 
+Eine Mobile Anwendung für Android und iOS die dem Nutzer ermöglicht Gebärden als Bilder für Englische als auch Hausa Wörter nachzuschauen. Es wird eine Suchfunktion geboten die die relevantesten Gebärden anzeigt. Der Nutzer kann diese Darstellungen genauer betrachten und mehr Informationen erhalten. Diese Informationen umfassen das Englische und das Hausa Wort, sowie Referenzen zu den Büchern.
+Die Datenbank ist lokal auf dem Gerät gespeichert, und kann nach Nachfrage beim User über das Internet aktualisiert werden. 
+Zusatzfeatures sind:
+	Ein Impresssum
+	Suchverlauf
+	Statistiken beliebter Einträge
+	Anzeigen beliebtester Einträge
+	(WebM/Gif support für Darstellungen)
+	Instant Search
+	(Browsen der Einträge nach Kategorie)
+	Swipen innerhalb der Großansicht eines Eintrages
+
+Datenbank-Beschreibung
+
+Die Zentrale Datenbank liegt auf einem Server. Die App kann zu diesem eine Verbindung herstellen um die Datenbank der App zu aktualisieren. Die Datenbank kann bequem ohne Programmierkenntnisse administriert werden. Die Administration umfasst Grundfunktionen wie Einfügen und Modifikation von Datenbankeinträgen.
+
